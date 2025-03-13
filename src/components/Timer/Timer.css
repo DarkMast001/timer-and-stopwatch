@@ -1,0 +1,14 @@
+.timer_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 410px;
+	width: 100%;
+	justify-self: center;
+}
+
+.timer_buttons_container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}

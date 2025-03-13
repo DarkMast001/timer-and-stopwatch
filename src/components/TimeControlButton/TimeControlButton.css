@@ -1,0 +1,16 @@
+.timer_control_button {
+	height: 50px;
+	background: #eefffe;
+	padding-left: 60px;
+	padding-right: 60px;
+	font-size: var(--font-size);
+	border-radius: 5px;
+	cursor: pointer;
+	border: 0px;
+}
+
+@media (hover:hover) {
+	.timer_control_button:hover {
+		background: #c1fffc;
+	}
+}

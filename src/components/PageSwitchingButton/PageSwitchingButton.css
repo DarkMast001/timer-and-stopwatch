@@ -5,6 +5,7 @@
 	background: #eefffe;
 	border: 0px;
 	border-radius: 5px;
+	cursor: pointer;
 }
 
 .switch_page_btn.active {
