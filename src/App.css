@@ -1,0 +1,14 @@
+.button_switcher_container {
+	display: flex;
+	justify-content: center;
+	margin-block-start: 150px;
+	margin-block-end: 150px;
+	gap: 20px;
+}
+
+@media (max-width: 550px) {
+	.button_switcher_container {
+		margin-block-start: 100px;
+		margin-block-end: 100px;
+	}
+}

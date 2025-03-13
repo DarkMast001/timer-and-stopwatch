@@ -1,0 +1,28 @@
+.switch_page_btn {
+	font-size: var(--font-size);
+	padding: 10px 50px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+	background: #eefffe;
+	border: 0px;
+	border-radius: 5px;
+}
+
+.switch_page_btn.active {
+	background: #c1fffc;
+}
+
+@media (hover:hover) {
+	.switch_page_btn:hover {
+		box-shadow: none;
+	}
+}
+
+.switch_page_btn:active {
+	box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 550px) {
+	.switch_page_btn {
+		padding: 10px 25px;
+	}
+}
